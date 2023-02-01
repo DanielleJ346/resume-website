@@ -1,0 +1,170 @@
+:root {
+    --main-blue: #66fcf1;
+    --main-blue-dark: #45a29e;
+    --main-grey: #c5c6c7;
+    --main-grey-dark: #1f2833;
+    --main-black: #0b0c10;
+    --main-white: white;
+    --main-green: #65fca5;
+    --main-blush: #65bbfc;
+    --blue: #3f8cc2;
+    --orange: #d26d59;
+    --pink: #a02d4c;
+    --dark-blue: #133157;
+    --yellow: #d29a59;
+    --green: #a1d259;
+    --purple: #9b59d2;
+  }
+
+.bg-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+  p, h3, h1, h2, li, h4 {
+    color: white;
+  }
+
+  #main {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    height: 25px;
+    background-color: #ddd; /* Grey background */
+    border-radius: 15px;
+    box-shadow: 5px -10px 12px 3px rgba(0, 0, 0, 0, 0.3) inset;
+  }
+  
+  .skills {
+    height: 25px;
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius: 15px;
+  }
+  
+  .html {
+    width: 95%;
+     background-image: linear-gradient(90deg, var(--pink), var(--orange));
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+    } /* Green */
+  
+  .css {
+    width: 95%; 
+    background-image: linear-gradient(90deg, var(--orange), var(--yellow));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } /* Blue */
+  
+  .js {
+    width: 80%;
+    background-image: linear-gradient(90deg, var(--yellow), var(--green));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } /* Red */
+  
+  .php {
+    width: 60%; 
+    background-image: linear-gradient(90deg, var(--green), var(--blue));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } /* Dark Grey */
+  
+  .ill {
+    width: 95%; 
+    background-image: linear-gradient(90deg, var(--blue), var(--purple));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .eng {
+    width: 95%; 
+    background-image: linear-gradient(90deg, var(--purple), var(--pink));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .afr {
+    width: 70%; 
+    background-image: linear-gradient(90deg, var(--pink), var(--orange));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .press {
+    width: 70%; 
+    background-image: linear-gradient(90deg, var(--pink), var(--orange));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lang {
+    width: 100%;
+    margin: 20px 0px;
+    border-top: 2px solid white;
+    border-radius: 1px;
+  }
+
+  button {
+    background-image: linear-gradient(90deg, var(--pink), var(--orange), var(--pink));
+    color: var(--main-white);
+    width: 200px;
+    margin: 20px 0;
+    border: none;
+    background-size: 200% auto;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-position: right;
+    cursor: pointer;
+  }
+
+  .prof-skills {
+    padding: 20px 0;
+  }
+
+  .pers-skills {
+    padding: 20px 0;
+  }
+
+  .work-exp, .edu {
+    padding: 20px 0;
+  }
+
+  button > a {
+    text-decoration: none;
+  }
+
+  footer > i {
+    color: white;
+  }
